@@ -1,0 +1,35 @@
+Nov 20 17:21:13.964 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 20 17:21:13.965 HYPERVISOR: Started on IP = localhost, TCP port = 53527.
+Nov 20 17:21:14.357 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 20 17:21:14.358 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\USER\GNS3\projects\Lab3_NetDevOps_\project-files\dynamips 
+Nov 20 17:21:15.114 GENERAL: working_dir=C:\Users\USER\GNS3\projects\Lab3_NetDevOps_\project-files\dynamips
+Nov 20 17:21:15.114 HYPERVISOR: exec_cmd: ethsw create ADMIN 
+Nov 20 17:25:41.373 HYPERVISOR: exec_cmd: nio create_udp udp-18166a0d-8a71-485c-b01c-05e338db3b24 10000 192.168.12.129 20000 
+Nov 20 17:25:41.434 HYPERVISOR: exec_cmd: ethsw add_nio ADMIN udp-18166a0d-8a71-485c-b01c-05e338db3b24 
+Nov 20 17:25:41.454 HYPERVISOR: exec_cmd: ethsw set_access_port ADMIN udp-18166a0d-8a71-485c-b01c-05e338db3b24 1 
+Nov 20 17:25:41.498 HYPERVISOR: exec_cmd: nio create_udp udp-783a6d48-852c-43c2-8141-edffdc58d2c7 10001 192.168.12.129 20001 
+Nov 20 17:25:41.498 HYPERVISOR: exec_cmd: ethsw add_nio ADMIN udp-783a6d48-852c-43c2-8141-edffdc58d2c7 
+Nov 20 17:25:41.516 HYPERVISOR: exec_cmd: ethsw set_access_port ADMIN udp-783a6d48-852c-43c2-8141-edffdc58d2c7 1 
+Nov 20 17:25:41.561 HYPERVISOR: exec_cmd: nio create_udp udp-2000e0f6-dbf9-4da8-ac9e-b268bdebcb83 10002 192.168.12.129 20002 
+Nov 20 17:25:41.561 HYPERVISOR: exec_cmd: ethsw add_nio ADMIN udp-2000e0f6-dbf9-4da8-ac9e-b268bdebcb83 
+Nov 20 17:25:41.577 HYPERVISOR: exec_cmd: ethsw set_access_port ADMIN udp-2000e0f6-dbf9-4da8-ac9e-b268bdebcb83 1 
+Nov 20 17:25:41.731 HYPERVISOR: exec_cmd: nio create_udp udp-1156d4b5-c233-4123-af82-492afbdec359 10003 192.168.12.129 20007 
+Nov 20 17:25:41.732 HYPERVISOR: exec_cmd: ethsw add_nio ADMIN udp-1156d4b5-c233-4123-af82-492afbdec359 
+Nov 20 17:25:41.741 HYPERVISOR: exec_cmd: ethsw set_access_port ADMIN udp-1156d4b5-c233-4123-af82-492afbdec359 1 
+Nov 20 17:25:41.771 HYPERVISOR: exec_cmd: nio create_udp udp-791b51e0-f743-4343-b7d2-6c531cbcb141 10004 127.0.0.1 10005 
+Nov 20 17:25:41.772 HYPERVISOR: exec_cmd: ethsw add_nio ADMIN udp-791b51e0-f743-4343-b7d2-6c531cbcb141 
+Nov 20 17:25:41.782 HYPERVISOR: exec_cmd: ethsw set_access_port ADMIN udp-791b51e0-f743-4343-b7d2-6c531cbcb141 1 
+Nov 20 17:26:02.280 HYPERVISOR: exec_cmd: ethsw remove_nio ADMIN udp-1156d4b5-c233-4123-af82-492afbdec359 
+Nov 20 17:26:02.288 HYPERVISOR: exec_cmd: nio delete udp-1156d4b5-c233-4123-af82-492afbdec359 
+Nov 20 17:26:06.274 HYPERVISOR: exec_cmd: ethsw remove_nio ADMIN udp-791b51e0-f743-4343-b7d2-6c531cbcb141 
+Nov 20 17:26:06.278 HYPERVISOR: exec_cmd: nio delete udp-791b51e0-f743-4343-b7d2-6c531cbcb141 
+Nov 20 17:26:11.319 HYPERVISOR: exec_cmd: ethsw remove_nio ADMIN udp-783a6d48-852c-43c2-8141-edffdc58d2c7 
+Nov 20 17:26:11.326 HYPERVISOR: exec_cmd: nio delete udp-783a6d48-852c-43c2-8141-edffdc58d2c7 
+Nov 20 17:26:14.528 HYPERVISOR: exec_cmd: ethsw remove_nio ADMIN udp-18166a0d-8a71-485c-b01c-05e338db3b24 
+Nov 20 17:26:14.537 HYPERVISOR: exec_cmd: nio delete udp-18166a0d-8a71-485c-b01c-05e338db3b24 
+Nov 20 17:26:14.584 HYPERVISOR: exec_cmd: ethsw remove_nio ADMIN udp-2000e0f6-dbf9-4da8-ac9e-b268bdebcb83 
+Nov 20 17:26:14.605 HYPERVISOR: exec_cmd: nio delete udp-2000e0f6-dbf9-4da8-ac9e-b268bdebcb83 
+Nov 20 17:26:14.645 HYPERVISOR: exec_cmd: ethsw delete ADMIN 
+Nov 20 17:26:14.646 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 20 17:26:14.924 HYPERVISOR: Stopped.
+Nov 20 17:26:14.924 GENERAL: reset done.
